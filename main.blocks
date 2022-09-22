@@ -1,1 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="!3,A#${0N0o;@gb].)qP" x="0" y="0"></block><block type="device_forever" id="{s1|0,qeUixC5J}+/m#T" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="!3,A#${0N0o;@gb].)qP" x="0" y="0"></block><block type="device_forever" id="{s1|0,qeUixC5J}+/m#T" x="205" y="0"></block><block type="device_pin_event" id="mTB-Jkp@uIi.pLZDuG/2" x="528" y="152"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_show_leds" id="^Scv-Ua8|+5JrncT^J[n"><field name="LEDS">`
+        # # # . . 
+        # # # . . 
+        # # # . . 
+        # # . . . 
+        # # . . .
+        `</field></block></statement></block><block type="device_pin_event" id="55BOG:kDj%A;FLx{c+Pz" x="-2" y="221"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_show_number" id="}sUGh(z~H]uPR9kqI-ZN"><value name="number"><shadow type="math_number" id="(AIL!G+[_XoH/%0#BpGr"><field name="NUM">3</field></shadow></value><next><block type="device_show_number" id="$80}=^X(y{(tqMB$GG%G"><value name="number"><shadow type="math_number" id="uBoV]|x?@uIe8~/kCU)g"><field name="NUM">2</field></shadow></value><next><block type="device_show_number" id="t4,fztjq_1p}0vb@9Hv("><value name="number"><shadow type="math_number" id="-%N(e-KzAb?Up/h*0#_p"><field name="NUM">1</field></shadow></value><next><block type="device_print_message" id="#C8*w2x9)09/]amR*_UZ"><value name="text"><shadow type="text" id="bUWI!yJb*t5L3h]^^*4;"><field name="TEXT">"Let's Play!"</field></shadow></value><next><block type="device_pause" id="uNJSIQ{vzZfxg?$qcck{"><value name="pause"><shadow type="timePicker" id=":[ugRIPc%lm%S:QcGDWJ"><field name="ms">100</field></shadow><block type="device_random" id="FFT}O~@g%e{rQyZIwP=y"><value name="min"><shadow type="math_number" id="WHvum{bePjA#6!T7~t3$"><field name="NUM">1000</field></shadow></value><value name="limit"><shadow type="math_number" id="bm8rNryBSh-4c}A]`aN$"><field name="NUM">5000</field></shadow></value></block></value><next><block type="device_show_leds" id="lnPb]:fwtj[@VaIl3RMW"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # . 
+        . # # # .
+        `</field><next><block type="device_pause" id="kh0O(g`*rqAEnhi_^-Nv"><value name="pause"><shadow type="timePicker" id="r]mYxHU1zEg9-T@me2MJ"><field name="ms">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="f4V|^d?=IL3r)3=)%@{y" x="528" y="459"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="device_show_leds" id="Uj0ay{WC?@3qEJ!l+J}O"><field name="LEDS">`
+        . . . # # 
+        . . . # # 
+        . . . # # 
+        . . # # # 
+        . . # # #
+        `</field></block></statement></block></xml>
